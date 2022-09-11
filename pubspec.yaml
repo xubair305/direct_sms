@@ -1,6 +1,7 @@
 name: direct_sms
-description: A new Flutter plugin which help us to send sms with phone sms interaction.
+description: A new Flutter plugin which help us to send sms with phone sms interaction (support only android).
 version: 0.0.1
+repository: https://github.com/xubair305/direct_sms.git
 homepage:
 
 environment:
