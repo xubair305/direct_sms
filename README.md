@@ -1,15 +1,14 @@
 # direct_sms
 
-A new Flutter plugin project.
+A new Flutter plugin which help us to send sms with phone sms interaction (support only android).
 
-## Getting Started
+direct_sms is a plugin which we can use it to send sms without opening phone default application
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+###########################################################################################
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+NOTE: Make sure to request sms permission before using it 
 
+   *change compileSdkVersion to 33 
+
+    *Add this line in AndroidManifest.xml
+        <uses-permission android:name="android.permission.SEND_SMS" />
